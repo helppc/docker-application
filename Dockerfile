@@ -41,7 +41,7 @@ RUN apt-get -y --no-install-recommends update \
         php7.4-opcache \
         php7.4-readline \
         php7.4-xml \
-        php7.4-zip
+        php7.4-zip \
         nginx \
         tzdata && \
     rm -f /etc/php/7.4/fpm/pool.d/www.conf && \
